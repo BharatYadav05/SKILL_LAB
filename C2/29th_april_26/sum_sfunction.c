@@ -5,7 +5,7 @@
     int main(){
         int a, b, add;
 
-        printf("Enter the value of a & n :");
+        printf("Enter the value of a & b :");
         scanf("%d %d", &a , &b);
         add=sum(a,b); // Function calling
             //   |-Actual Parameter
