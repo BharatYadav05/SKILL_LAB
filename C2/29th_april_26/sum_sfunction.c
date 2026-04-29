@@ -1,20 +1,21 @@
 #include <stdio.h>
 
-    int sum(int x , int y); //function declaration
+int sum(int x, int y); // function declaration
 
-    int main(){
-        int a, b, add;
+int main()
+{
+    int a, b, add;
 
-        printf("Enter the value of a & b :");
-        scanf("%d %d", &a , &b);
-        add=sum(a,b); // Function calling
-            //   |-Actual Parameter
-        printf("%d", add); //Actual Parameter
+    printf("Enter the value of a & b :");
+    scanf("%d %d", &a, &b);
+    add = sum(a, b); // Function calling
+                     //   |-Actual Parameter
+    printf("%d", add); // Actual Parameter
 
-return 0;
-    }
+    return 0;
+}
 
-    int sum(int x, int y) //Function Definition 
-        {    //   formal parameter
-            return (x+y);
-        }
+int sum(int x, int y) // Function Definition
+{                     //   formal parameter
+    return (x + y);
+}
